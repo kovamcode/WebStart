@@ -1,33 +1,37 @@
-nav  {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ddd;
+/* Стиль для header (навигации) */
+#header {
+    background-color: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 10px 0; /* Отступы сверху и снизу, 0 слева и справа */
+    text-align: center; /* Выравнивание текста по центру */
 }
 
-nav ul {
+#header ul {
     list-style: none;
     padding: 0;
 }
 
-nav li {
+#header li {
     display: inline;
     margin-right: 20px;
 }
 
-.shadow_block {
-    width: auto; /* Ширина квадрата */
-    height: auto; /* Высота квадрата */
-    margin: 10px; /* Расстояние между квадратами */
+#header a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#header a:hover {
+    text-decoration: underline;
+}
+
+/* Стиль для article */
+article {
+    margin-top: 20px; /* Отступ сверху для разделения header и article */
     background-color: #fff;
     border: 1px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
     padding: 10px;
     text-align: center;
-    display: inline-block;
-    vertical-align: top;
-}
-
-article h2 {
-    font-size: 20px;
-    margin: 0;
 }
