@@ -33,5 +33,5 @@ article {
     border: 1px solid #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень */
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
