@@ -1,8 +1,17 @@
 body{
     background-color: #121212;
     color: #f2f2f2;
+
+}
+
+.grid-container {
+display: grid;
+max-width: 1200px;
+grid-template-columns: repeat(6, 1fr);
 }
 
 .block {
 background-color: #212121;
+border: 1px solid white;
 }
+
